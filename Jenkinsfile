@@ -1,8 +1,8 @@
 pipeline {
     agent any
     environment {
-        PACKER_ACTION = 'NO'
-        TERRAFORM_ACTION = 'DESTROY'
+        PACKER_ACTION = 'YES'
+        TERRAFORM_ACTION = 'DEPLOY'
         AMI_ACTION = 'DELET'
     }
 
